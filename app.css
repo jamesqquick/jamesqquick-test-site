@@ -1,13 +1,70 @@
+* {
+    font-family: sans-serif;
+}
+
 .bordered {
     border: 6px solid salmon;
 }
 
 img {
     border-radius: 10px;
-    /* cursor: wait; */
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 3px;
+    border: 1px solid #555;
+    resize: none;
+}
+
+.fancy {
+    border-bottom: 3px solid salmon;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    border-radius: 1px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+.header > h3 {
+    color: #333;
+}
+
+body {
+    margin-top: 5rem;
+}
+
+.profile {
+    width: 256px;
+    height: 256px;
+    border-radius: 100%;
+}
+
+h1 {
+    color: #222;
+}
+
+button {
+    border-radius: 3px;
+    border: none;
+    background-color: salmon;
+    padding: 10px 15px;
+    color: white;
 }

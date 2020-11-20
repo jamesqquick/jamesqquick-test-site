@@ -1,0 +1,13 @@
+.bordered {
+    border: 6px solid salmon;
+}
+
+img {
+    border-radius: 10px;
+    /* cursor: wait; */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
